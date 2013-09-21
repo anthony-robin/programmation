@@ -8,4 +8,4 @@ TP de création de livre numérique au format ePub
 
 Métadonnées
 -----------
-Utilisation des Metadata
+Utilisation des Metadata en HTML
