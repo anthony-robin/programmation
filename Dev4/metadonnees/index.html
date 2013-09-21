@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head><!-- En-tete du document  -->
+
+		<!-- Balises META -->
+		<meta charset="UTF-8" />
+   		<meta name="robots" content="index,follow" />
+   		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title></title>
+
+   		<!-- CSS -->
+		<link rel="schema.DC" href="http://purl.org/dc/terms/">
+		<meta name="DC.title" content="A really interesting article">
+
+    	<!-- HTML5 pour IE6, IE7 et IE8 -->
+   		<!--[if lt IE 9]>
+        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+
+    	<!-- CSS3 pour IE6, IE7 et IE8 -->
+    	<!--[if (gte IE 6)&(lte IE 8)]>
+			<script type="text/javascript" src="https://raw.github.com/keithclark/selectivizr/master/selectivizr.js"></script>
+		<![endif]-->
+
+
+  	</head>
+
+<body>
+	
+
+
+    <div itemscope itemtype="http://schema.org/Person">
+        
+        <p>Bonjour, je m'appelle <span itemprop="name">Anthony</span> <span itemprop="familyName">ROBIN</span>.</p>
+        
+        <p>Je suis né le <time itemprop="birthDate">XX-XX-XXXX</p> en <span itemprop="nationality">France</span>
+        
+        <p>Je suis <span itemprop="affiliation">étudiant</span> à <span itemprop="alumniOf">l'université de Caen Basse Normandie</span></p>
+		
+		<p>Mon site internet est: <a href="http://anthony-robin.fr" itemprop="url">http://anthony-robin.fr</a></p>
+        
+        <p>J'ai travaillé pour plusieurs entreprises ou associations: </p>
+        
+        <ul>
+        	<li>
+        		<span itemprop="worksFor">La Cinémathèque de Bourgogne Jean Douchet</span> à <span itemprop="worksLocation">Dijon</span>
+        	</li>
+        	<li>
+        		<span itemprop="worksFor">L'entreprise PC30</span> à <span itemprop="worksLocation">Dijon</span>
+        	</li>
+        	<li>
+        		<span itemprop="worksFor">L'entreprise netMaestro</span> à <span itemprop="worksLocation">Nelson en Nouvelle Zélande</span>
+        	</li>
+        </ul>
+
+
+        <p>Camarades de classe</p>
+        <ul>
+        	<li itemprop="colleague">Cassandre Houard</li>
+        	<li itemprop="colleague">Cassandre Houard</li>
+        	<li itemprop="colleague">Cassandre Houard</li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
